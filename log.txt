@@ -1,0 +1,217 @@
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Oops Exception Occured
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Oops Exception Occured
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Oops Exception Occured
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Oops Exception Occured
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Idea is Unique
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Idea is Unique
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+INFO:uvicorn.error:Started server process [15940]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Idea is Unique
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 75, in __call__
+    raise exc
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 64, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 680, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 275, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 260, in app
+    response = actual_response_class(content, **response_args)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 192, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 54, in __init__
+    self.body = self.render(content)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 195, in render
+    return json.dumps(
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant
+INFO:uvicorn.error:Started server process [8640]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:root:Entry of function
+DEBUG:root:Inside dataFetch()
+DEBUG:root:dataFetch Done
+DEBUG:root:Inside modelFetch()
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-albert-small-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device: cpu
+DEBUG:root:Model Fetch Done
+DEBUG:root:Data and Model Fetched Returned
+DEBUG:root:All Input Fetched
+DEBUG:root:Breif Idea vector done
+DEBUG:root:Concept and Objective vector done
+DEBUG:root:Potential Area of Application vector done
+DEBUG:root:Sector vector done
+DEBUG:root:Idea is Unique
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 75, in __call__
+    raise exc
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 64, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 680, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 275, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 260, in app
+    response = actual_response_class(content, **response_args)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 192, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 54, in __init__
+    self.body = self.render(content)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\responses.py", line 195, in render
+    return json.dumps(
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant
