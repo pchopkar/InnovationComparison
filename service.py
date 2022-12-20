@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 import gc
 #import numpy as np
-#from numba import jit, njit
+from numba import jit, njit, cuda
 # import torch
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #@njit 
